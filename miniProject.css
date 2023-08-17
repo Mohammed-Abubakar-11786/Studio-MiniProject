@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main_box{
+
+    height: 100vh;
+    background-image: url(miniproject.jpg);
+    background-size: cover;
+}
+
+#check{
+    display: none;
+}
+
+.btn_one i{
+    position: relative;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 60px;
+    left: 15px;
+    top: 5px;
+    color: white;
+    cursor: pointer;
+    
+}
+
+.sidebar_menu{
+    height: 100vh;
+    width: 300px;
+    background-color: rgba(225, 225, 225, 0.1);
+    position: relative;
+    left: -320px;
+    /* left: 0px; */
+    bottom: 56px;
+    box-shadow: 0px 0px 4px rgba(255, 255, 255,0.5);
+    transition: all 0.6s linear;
+}
+
+.sidebar_menu .logo{
+    position: absolute;
+    width: 100%;
+    line-height: 60px;
+    height: 60px;
+    box-shadow: 0px 0px 4px rgba(255, 255, 255,0.5);
+}
+
+.sidebar_menu .logo a{
+    
+    font-size: 25px;
+    position: absolute;
+    left: 17%;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.sidebar_menu .btn_two i{
+    position:absolute;
+    left: 88%;
+    color: rgba(255, 255, 255,0.3);
+    font-size: 28px;
+    font-weight: 550;
+    line-height: 60px;
+    top: 2px;
+
+    cursor: pointer;
+    opacity: 0;
+    
+}
+
+.sidebar_menu .menu{
+    position: absolute;
+    top: 11%;
+    font-size: 20px;
+    
+    width: 100%;
+}
+
+.sidebar_menu .menu i{
+    position:relative;
+    left: 5px;
+    padding: 13px;
+    top: 7px;
+    color: white;
+}
+
+.sidebar_menu .menu a{
+    position:relative;
+    top: 7px;
+    text-decoration: none;
+    color: white;
+
+}
+
+.sidebar_menu .menu li{
+    position: relative;
+    height: 60px;
+    
+}
+
+.social_media{
+    position: absolute;
+    top: 90%;
+    left: 24%;
+    font-size: 20px;
+
+}
+
+.social_media i{
+    color: white;
+    opacity: 0.5;
+    padding: 0 5px;
+}
+
+.sidebar_menu .menu li:hover{
+    box-shadow: 0px 0px 4px rgba(255, 255, 255,0.5);
+}
+
+.btn_one i:hover{
+    font-size: 33px;
+}
+
+.btn_two i:hover{
+    font-size: 31px;
+}
+
+.social_media i:hover{
+    opacity: 1;
+    transform: scale(1.2);
+}
+#check:checked~.btn_one i{
+    opacity: 0;
+}
+
+#check:checked~.sidebar_menu{
+    left: 0px;
+    
+}
+
+#check:checked~.sidebar_menu .btn_two i{
+    opacity: 1;
+} 
+
+
+
+
+<div class="container">
+<div class="d-flex p-2 justify-content-center mt-1"><h3>Pricing</h3></div>
+<p class="text-center mt-0.0001">Please Check Out Our Effective Pricing Model</p>
+<div class="grid text-center" style="display: flex; justify-content: space-evenly;">
+    <div class="g-col-4"><div class="card text-center" style="width:18rem;">
+        <h5 class="card-header">Free</h5>
+        <div class="card-body">
+          <h5 class="card-title">$0/mo</h5>
+          <p class="card-text">10 Users Included <br>2GB of Storage <br>Email Support</p>
+          <a href="#" class="btn btn-outline-primary">Sign up for free</a>
+        </div>
+    </div></div>
+    <div class="g-col-4"><div class="card text-center" style="width:18rem;">
+        <h5 class="card-header">Free</h5>
+        <div class="card-body">
+          <h5 class="card-title">$0/mo</h5>
+          <p class="card-text">10 Users Included <br>2GB of Storage <br>Email Support</p>
+          <a href="#" class="btn btn-outline-primary">Sign up for free</a>
+        </div>
+    </div></div>
+    <div class="g-col-4 "><div class="card text-center" style="width:18rem;">
+        <h5 class="card-header">Free</h5>
+        <div class="card-body">
+          <h5 class="card-title">$0/mo</h5>
+          <p class="card-text">10 Users Included <br>2GB of Storage <br>Email Support</p>
+          <a href="#" class="btn btn-outline-primary">Sign up for free</a>
+        </div>
+    </div></div>
+</div>
+</div>
