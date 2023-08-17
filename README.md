@@ -1,2 +1,2 @@
 # Studio.html
-This isfor my studio mini project using CSS
+Project of my studio mini project using CSS
